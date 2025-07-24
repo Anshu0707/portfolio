@@ -1,0 +1,215 @@
+import { Project } from "../components/ProjectCard";
+
+const projects: Project[] = [
+  {
+    id: 1,
+    title: "Spendly",
+    description:
+      "A modern and elegant expense tracking application built with React, TypeScript, and Spring Boot. This tool empowers users to manage, categorize, and visualize their financial transactions with clarity and ease — all while following best practices in software design and architecture.",
+    image: "/images/projects/spendly.png",
+    tags: [
+      "Java",
+      "Spring Boot",
+      "REST API",
+      "JPA & Hibernate",
+      "PostgreSQL",
+      "SOLID Principles",
+      "Abstraction",
+      "JavaScript",
+      "React",
+      "Zustand",
+      "Tailwind CSS",
+      "Web Application"
+    ],
+    demo: "https://spendly-scsi.onrender.com/",
+    github: "https://github.com/Anshu0707/spendly",
+    category: ["All", "Java"],
+  },
+  {
+    id: 2,
+    title: "FlowOps",
+    description:
+      "FlowOps is an intuitive AI workflow builder that empowers users to create, manage, and optimize workflows effortlessly. It’s designed for rapid prototyping of node-based LLM flows with dynamic inputs, outputs, and system logic — all rendered on a beautiful, responsive canvas.",
+    image: "/images/projects/flow-ops.png",
+    tags: ["AI", "React", "Node-Based", "Workflow", "React Flow", "Zustand", "Tailwind CSS", "Python", "FastAPI", "Web Application", "Atomic Design", "Abstraction"],
+    demo: "https://flowops-hu9f.onrender.com/",
+    github: "https://github.com/Anshu0707/flowOps",
+    category: ["All", "Python"],
+  },
+  {
+    id: 3,
+    title: "E-Sales",
+    description:
+      "A modern full-stack e-commerce platform built with React on the frontend and Express.js on the backend. This project demonstrates robust cart management, dynamic order summaries, seamless email notifications, and well-structured Express APIs.",
+    image: "/images/projects/e-sales.png",
+    tags: [
+      "React",
+      "Express",
+      "MongoDb",
+      "Node",
+      "CORS",
+      "REST API",
+      "Material UI",
+      "Framer Motion",
+      "React Particles",
+      "Responsive Design",
+      "Context API",
+      "SendGrid",
+    ],
+    demo: "https://e-sales.onrender.com/",
+    github: "https://github.com/Anshu0707/e-Sales",
+    category: ["All", "MERN"],
+  },
+  {
+    id: 4,
+    title: "Interview Master",
+    description:
+      "AI-powered Interview Question Generator that dynamically creates role-specific technical questions using CohereAI/OpenAI instruction model.",
+    image: "/images/projects/interview-generator.png",
+    tags: ["React", "Material UI", "Framer Motion", "React Particles", "CohereAI", "OpenAI", "Express", "CORS"],
+    demo: "https://interview-master-9s7b.onrender.com/",
+    github: "https://github.com/Anshu0707/interview-generator",
+    category: ["All", "MERN"],
+  },
+  {
+    id: 5,
+    title: "Anamoly Detection System",
+    description:
+      "A real-time anomaly detection system for Airtel's network traffic using an optimized Holt-Winters forecasting model in Python, deployed on Linux with Kafka, Elasticsearch, Zabbix, Grafana, and Prometheus to trigger intelligent alerts from TSA data.",
+    image: "/images/projects/anamoly-detection.png",
+    tags: [
+  "Anomaly Detection",
+  "TSA",
+  "Python",
+  "Kafka",
+  "Logstash",
+  "Zabbix",
+  "Elasticsearch",
+  "Grafana",
+  "Prometheus",
+  "Linux",
+  "Real-time Monitoring",
+  "DevOps",
+],
+    demo: "https://github.com/Anshu0707/anamoly-detection",
+    github: "https://github.com/Anshu0707/anamoly-detection",
+    category: ["All", "Python"],
+  },
+    {
+    id: 6,
+    title: "Bank Force",
+    description:
+      "A secure, automated, and insight-driven banking management solution built on the Salesforce CRM platform. This project simulates a production-grade banking system with fine-tuned access control, automated customer workflows, and rich data visualization for internal teams.",
+    image: "/images/projects/bank-force-2.png",
+    tags: [
+  "Salesforce CRM",
+  "Apex",
+  "Triggers",
+  "LWC",
+  "Reports",
+  "Dashboards",
+  "SOQL",
+  "Process Builder",
+]
+,
+    demo: "https://github.com/Anshu0707/bank-force",
+    github: "https://github.com/Anshu0707/bank-force",
+    category: ["All", "Salesforce"],
+  },
+  
+   {
+    id: 7,
+    title: "Movie Recommender",
+    description:
+      "A content-based movie recommender built with Python, basic NLP tools (CountVectorizer), and Scikit-learn. Combines genres and tags to compute cosine similarity and suggest similar movies with clean, fast logic.",
+    image: "/images/projects/movie-recommender.png",
+    tags: [
+  "Python",
+  "Machine Learning",
+  "Pandas",
+  "NumPy",
+  "NLP",
+  "Scikit-learn",
+  "Cosine Similarity",
+  "Count Vectorizer",
+  "Jupyter Notebook",
+  "Data Science",
+]
+,
+    demo: "https://github.com/Anshu0707/movie-recommender",
+    github: "https://github.com/Anshu0707/movie-recommender",
+    category: ["All", "Python"],
+  },
+    {
+    id: 8,
+    title: "Forecastly",
+    description:
+      "A modern, responsive weather application built with React, leveraging the OpenWeatherMap API to deliver real-time weather updates.",
+    image: "/images/projects/weather-app.png",
+    tags: [
+  "React",
+  "openweathermap",
+  "responsive-design",
+  "Axios",
+  "Luxon",
+  "React-icons",
+  "Javascript",
+  "Frontend",
+  "UI/UX",
+  "Api-Integration",
+  "Climate",
+  "Web-app"
+]
+,
+    demo: "https://anshuman-weather-app.netlify.app/",
+    github: "https://github.com/Anshu0707/forecastly",
+    category: ["All", "MERN"],
+  },
+  {
+    id: 9,
+    title: "Expense Tracker",
+    description:
+      "A robust, console-based Java application for tracking income and expenses month-wise, with clear summaries and structured data entry — built using SOLID principles for maintainability and scalability.",
+    image: "/images/projects/expense-tracker.png",
+    tags: [
+  "Java",
+  "Console Application",
+  "Maven",
+  "SOLID",
+  "Object-Oriented Design",
+  "Modular Architecture",
+  "Enums",
+  "Java Collections",
+  "Exception Handling", 
+  "File I/O",
+]
+,
+    demo: "https://drive.google.com/file/d/1vM76Ky04WHc04iIOqSsbt45Xic5CbdxC/view?usp=sharing",
+    github: "https://github.com/Anshu0707/expense-tracker",
+    category: ["All", "Java"],
+  },
+  {
+    id: 10,
+    title: "Dine Mate",
+    description:
+      "A sleek, responsive restaurant table management app built with Vanilla JavaScript — no frameworks, no libraries. Features drag-and-drop ordering, live bill updates, and multi-table support. Fully functional UI using just HTML, CSS, and pure JS — fast, lightweight, and framework-free.",
+    image: "/images/projects/dine-mate.png",
+    tags: [
+  "Vanilla JavaScript",
+  "HTML",
+  "CSS",
+  "Drag and Drop",
+  "Restaurant POS",
+  "Table Management",
+  "Responsive UI",
+  "Frontend",
+  "DOM Manipulation",
+]
+,
+    demo: "https://dine-mate.netlify.app/",
+    github: "https://github.com/Anshu0707/dine-mate",
+    category: ["All"],
+  },
+];
+
+export default projects;
