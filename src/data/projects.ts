@@ -35,9 +35,32 @@ const projects: Project[] = [
     demo: "https://flowops-hu9f.onrender.com/",
     github: "https://github.com/Anshu0707/flowOps",
     category: ["All", "Python"],
-  },
-  {
+  }, {
     id: 3,
+    title: "Anamoly Detection System",
+    description:
+      "A real-time anomaly detection system for Airtel's network traffic using an optimized Holt-Winters forecasting model in Python, deployed on Linux with Kafka, Elasticsearch, Zabbix, Grafana, and Prometheus to trigger intelligent alerts from TSA data.",
+    image: "/images/projects/anamoly-detection.png",
+    tags: [
+  "Anomaly Detection",
+  "TSA",
+  "Python",
+  "Kafka",
+  "Logstash",
+  "Zabbix",
+  "Elasticsearch",
+  "Grafana",
+  "Prometheus",
+  "Linux",
+  "Real-time Monitoring",
+  "DevOps",
+],
+    demo: "https://github.com/Anshu0707/anamoly-detection",
+    github: "https://github.com/Anshu0707/anamoly-detection",
+    category: ["All", "Python"],
+  }
+  ,{
+    id: 4,
     title: "E-Sales",
     description:
       "A modern full-stack e-commerce platform built with React on the frontend and Express.js on the backend. This project demonstrates robust cart management, dynamic order summaries, seamless email notifications, and well-structured Express APIs.",
@@ -60,8 +83,19 @@ const projects: Project[] = [
     github: "https://github.com/Anshu0707/e-Sales",
     category: ["All", "MERN"],
   },
+    {
+    id: 5,
+    title: "Solar System",
+    description:
+      "3D Solar System simulation built with React, Three.js, and React-Three-Fiber. This project showcases a dynamic, interactive solar system model with realistic planetary movements and textures.",
+    image: "/images/projects/solar-system.png",
+    tags: ["React", "Three.js", "React-Three-Fibre", "Vite", "Tailwind CSS", "Space", "Javascript"],
+    demo: "https://anshuman-solarsystem.netlify.app/",
+    github: "https://github.com/Anshu0707/solar-system",
+    category: ["All"],
+  },
   {
-    id: 4,
+    id: 6,
     title: "Interview Master",
     description:
       "AI-powered Interview Question Generator that dynamically creates role-specific technical questions using CohereAI/OpenAI instruction model.",
@@ -70,33 +104,10 @@ const projects: Project[] = [
     demo: "https://interview-master-9s7b.onrender.com/",
     github: "https://github.com/Anshu0707/interview-generator",
     category: ["All", "MERN"],
-  },
-  {
-    id: 5,
-    title: "Anamoly Detection System",
-    description:
-      "A real-time anomaly detection system for Airtel's network traffic using an optimized Holt-Winters forecasting model in Python, deployed on Linux with Kafka, Elasticsearch, Zabbix, Grafana, and Prometheus to trigger intelligent alerts from TSA data.",
-    image: "/images/projects/anamoly-detection.png",
-    tags: [
-  "Anomaly Detection",
-  "TSA",
-  "Python",
-  "Kafka",
-  "Logstash",
-  "Zabbix",
-  "Elasticsearch",
-  "Grafana",
-  "Prometheus",
-  "Linux",
-  "Real-time Monitoring",
-  "DevOps",
-],
-    demo: "https://github.com/Anshu0707/anamoly-detection",
-    github: "https://github.com/Anshu0707/anamoly-detection",
-    category: ["All", "Python"],
-  },
+  }
+ ,
     {
-    id: 6,
+    id: 7,
     title: "Bank Force",
     description:
       "A secure, automated, and insight-driven banking management solution built on the Salesforce CRM platform. This project simulates a production-grade banking system with fine-tuned access control, automated customer workflows, and rich data visualization for internal teams.",
@@ -118,7 +129,7 @@ const projects: Project[] = [
   },
   
    {
-    id: 7,
+    id: 8,
     title: "Movie Recommender",
     description:
       "A content-based movie recommender built with Python, basic NLP tools (CountVectorizer), and Scikit-learn. Combines genres and tags to compute cosine similarity and suggest similar movies with clean, fast logic.",
@@ -141,7 +152,7 @@ const projects: Project[] = [
     category: ["All", "Python"],
   },
     {
-    id: 8,
+    id: 9,
     title: "Forecastly",
     description:
       "A modern, responsive weather application built with React, leveraging the OpenWeatherMap API to deliver real-time weather updates.",
@@ -164,29 +175,6 @@ const projects: Project[] = [
     demo: "https://anshuman-weather-app.netlify.app/",
     github: "https://github.com/Anshu0707/forecastly",
     category: ["All", "MERN"],
-  },
-  {
-    id: 9,
-    title: "Expense Tracker",
-    description:
-      "A robust, console-based Java application for tracking income and expenses month-wise, with clear summaries and structured data entry — built using SOLID principles for maintainability and scalability.",
-    image: "/images/projects/expense-tracker.png",
-    tags: [
-  "Java",
-  "Console Application",
-  "Maven",
-  "SOLID",
-  "Object-Oriented Design",
-  "Modular Architecture",
-  "Enums",
-  "Java Collections",
-  "Exception Handling", 
-  "File I/O",
-]
-,
-    demo: "https://drive.google.com/file/d/1vM76Ky04WHc04iIOqSsbt45Xic5CbdxC/view?usp=sharing",
-    github: "https://github.com/Anshu0707/expense-tracker",
-    category: ["All", "Java"],
   },
   {
     id: 10,
